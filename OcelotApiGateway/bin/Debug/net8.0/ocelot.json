@@ -1,0 +1,75 @@
+//{
+//  "Routes": [
+//    {
+//      "DownstreamPathTemplate": "/api/Order/GetAll",
+//      "DownstreamScheme": "http",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 5235
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/GetAll",
+//      "UpstreamHttpMethod": [ "GET" ]
+//    },
+//    {
+//      "DownstreamPathTemplate": "/api/Order/GetById/{id}",
+//      "DownstreamScheme": "http",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 5235
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/Order/GetById/{id}",
+//      "UpstreamHttpMethod": [ "GET" ]
+//    },
+//    {
+//      "DownstreamPathTemplate": "/api/Order/CreateOrder",
+//      "DownstreamScheme": "http",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 5235
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/CreateOrder",
+//      "UpstreamHttpMethod": [ "POST" ]
+//    }
+//  ]
+//}
+
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Order/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5235
+        }
+      ],
+      "UpstreamPathTemplate": "/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete" ]
+    }
+  ]
+}
+/*
+
+-- general template
+
+{
+  "DownstreamPathTemplate": "/{everything}",
+  "DownstreamScheme": "http",
+  "DownstreamHostAndPorts": [
+    {
+      "Host": "localhost",
+      "Port": 5235
+    }
+  ],
+  "UpstreamPathTemplate": "/billingapi/{everything}",
+  "UpstreamHttpMethod": [ "Get", "Post" ]
+}
+
+*/

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FD611577-44F5-4F06-AA06-F513823617F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{D4C5297C-5752-451B-B634-6360851DB460}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Ordering.Application\Ordering.Application.csproj", "{1F3ADE28-30D9-4F11-A181-383831817440}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Ordering.Domain\Ordering.Domain.csproj", "{3F006945-EC59-4A33-ADA1-CA5DF45147C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{A67FA6BC-5860-43CA-BDB5-111C281FC79E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Api", "Ordering.Api\Ordering.Api.csproj", "{2154175F-203C-483A-95C7-C35917C5E5CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{3596BF12-C852-444F-A2C9-7E030433A800}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGateway", "OcelotApiGateway\OcelotApiGateway.csproj", "{FA7F638D-59E4-4698-BD14-C497A68578D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3ADE28-30D9-4F11-A181-383831817440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3ADE28-30D9-4F11-A181-383831817440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3ADE28-30D9-4F11-A181-383831817440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3ADE28-30D9-4F11-A181-383831817440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F006945-EC59-4A33-ADA1-CA5DF45147C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F006945-EC59-4A33-ADA1-CA5DF45147C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F006945-EC59-4A33-ADA1-CA5DF45147C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F006945-EC59-4A33-ADA1-CA5DF45147C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67FA6BC-5860-43CA-BDB5-111C281FC79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67FA6BC-5860-43CA-BDB5-111C281FC79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67FA6BC-5860-43CA-BDB5-111C281FC79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67FA6BC-5860-43CA-BDB5-111C281FC79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2154175F-203C-483A-95C7-C35917C5E5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2154175F-203C-483A-95C7-C35917C5E5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2154175F-203C-483A-95C7-C35917C5E5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2154175F-203C-483A-95C7-C35917C5E5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7F638D-59E4-4698-BD14-C497A68578D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7F638D-59E4-4698-BD14-C497A68578D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7F638D-59E4-4698-BD14-C497A68578D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7F638D-59E4-4698-BD14-C497A68578D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4C5297C-5752-451B-B634-6360851DB460} = {FD611577-44F5-4F06-AA06-F513823617F7}
+		{1F3ADE28-30D9-4F11-A181-383831817440} = {D4C5297C-5752-451B-B634-6360851DB460}
+		{3F006945-EC59-4A33-ADA1-CA5DF45147C2} = {D4C5297C-5752-451B-B634-6360851DB460}
+		{A67FA6BC-5860-43CA-BDB5-111C281FC79E} = {D4C5297C-5752-451B-B634-6360851DB460}
+		{2154175F-203C-483A-95C7-C35917C5E5CA} = {D4C5297C-5752-451B-B634-6360851DB460}
+		{FA7F638D-59E4-4698-BD14-C497A68578D6} = {3596BF12-C852-444F-A2C9-7E030433A800}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A28D6AC-B6D9-488F-828A-2F408E24F6C9}
+	EndGlobalSection
+EndGlobal
