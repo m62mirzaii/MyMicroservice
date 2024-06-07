@@ -10,3 +10,16 @@ C:\Users\user\Desktop\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\refint\Ord
 C:\Users\user\Desktop\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.pdb
 C:\Users\user\Desktop\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\ref\Ordering.Domain.dll
 C:\Users\user\Desktop\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.AssemblyReference.cache
+F:\MyMicroservice\Ordering.Domain\bin\Debug\net8.0\Ordering.Domain.deps.json
+F:\MyMicroservice\Ordering.Domain\bin\Debug\net8.0\Ordering.Domain.dll
+F:\MyMicroservice\Ordering.Domain\bin\Debug\net8.0\Ordering.Domain.pdb
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.AssemblyReference.cache
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.AssemblyInfoInputs.cache
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.AssemblyInfo.cs
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.sourcelink.json
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.dll
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\refint\Ordering.Domain.dll
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.pdb
+F:\MyMicroservice\Ordering.Domain\obj\Debug\net8.0\ref\Ordering.Domain.dll
